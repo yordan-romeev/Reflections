@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Removed the need to scan through the whole file line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By allowing me to search and compare old versions to find bugs and see how the project developed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Cons: 
+- could mess up your work if you forget to commit for a long time
+- could lose your work if the power goes out and you did not commit for a long time
+    Pros:
+ - could ensure each commit contains a single logical change
+ - each commit would be a version of the code that would run
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because in most code oriented VCSs files are dependent on each other and a change in one warrants a change in another file. In order for a new commit to realise a full locigal change in the code, multiple files should be changed. Files versioned in Google Docs are separate in themselves and it is rare, that multiple files would be interchanged.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use the GIT LOG command to search for the commit IDs that I need to inspect. Then I can examine the differences between files in different commits with the GIT DIFF command
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By ensuring that no matter what I end up doing with the code, I can always backtrack through the project history and fix the issue or restore a working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To commit some changes to a project and see the results
