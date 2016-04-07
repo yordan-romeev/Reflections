@@ -22,6 +22,10 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	The result is a new single branch which contains all of the commits of both merged branches. In the diagram it is represented as 2 lines converging, because that is what happens with our code - all changes from all branches are present in the final commit.
 
 What are the pros and cons of Gitaˆ™s automatic merging vs. always doing merges
 manually?
+
+	
