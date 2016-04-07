@@ -25,7 +25,7 @@ the diagram the way we do?
 	
 	The result is a new single branch which contains all of the commits of both merged branches. In the diagram it is represented as 2 lines converging, because that is what happens with our code - all changes from all branches are present in the final commit.
 
-What are the pros and cons of Gitaˆ™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
-	
+	Pros: Saves a lot of time, otherwise needed to manually copy and paste changes., 
+	Cons: Can sometimes introduce bugs
